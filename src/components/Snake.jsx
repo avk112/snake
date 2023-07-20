@@ -97,14 +97,9 @@ const Snake = ({fieldCells, food, setFood, currentFoodSize, fieldSize, prevFoodS
 
 
     const randomFoodPlace = (snake)=> { //finding free space on field for food rendering
-        const stringSnake = snake.map(item=>JSON.stringify(item)).join(';');
-        let emptyCells = [];
-        for(let cell of fieldCells){
-            !stringSnake.includes(`"x":${cell.x},"y":${cell.y}`) && emptyCells.push(cell);
-        }
-        if(emptyCells.length===0){
-            return 0;
-        }
+        const stringSnake = snake.map(item=>JSON.stringify(item).replace(',"eaten":true', ""));
+        const setStringSnake = new Set(stringSnake);
+        const emptyCells = fieldCells.filter(item=>!setStringSnake.has(`{"x":${item.x},"y":${item.y}}`));
         const randomEmptyCell = Math.floor(Math.random()*emptyCells.length);
         const randomImgNum = Math.floor(Math.random()*foodData.length);
         const randomImg = foodData[randomImgNum].img;
