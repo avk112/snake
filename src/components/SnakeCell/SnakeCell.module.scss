@@ -1,24 +1,22 @@
-@use "../styles" as *;
+@use "../../styles" as *;
 
+.snakeHead {
+  position: absolute;
+  background: $winColor;
+  outline: 1px solid $standartFontColor;
+  z-index: 5;
 
-  .snakeHead {
-    position: absolute;
-    background: $winColor;
-    outline: 1px solid $standartFontColor;
-    z-index: 5;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
+  img {
+    width: 100%;
+    height: 100%;
   }
+}
 
-  .snake {
-    position: absolute;
-    background: $winColor;
-    outline: 1px solid $standartFontColor;
-  }
-
+.snake {
+  position: absolute;
+  background: $winColor;
+  outline: 1px solid $standartFontColor;
+}
 
 .ArrowRight {
   transform: rotate(-90deg);
@@ -42,13 +40,13 @@
 }
 
 @keyframes blinking {
-  0%{
+  0% {
     opacity: 0.5;
   }
-  50%{
+  50% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }

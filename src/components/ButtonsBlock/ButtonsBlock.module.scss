@@ -1,10 +1,10 @@
-@use "../styles" as *;
+@use "../../styles" as *;
 
 .buttons {
   @include standartBlock($direction: row, $align: space-between);
   display: none;
 
-  @media screen and (max-device-width: $notepad){
+  @media screen and (max-device-width: $notepad) {
     display: flex;
     padding: 2% 0;
   }
@@ -12,7 +12,6 @@
   @media screen and (max-aspect-ratio: 1.4/1) {
     padding: 4% 0;
   }
-
 
   button {
     margin: 0;
@@ -51,12 +50,11 @@
     @include standartBlock($direction: row, $justify: space-between);
     width: 16%;
 
-
-    @media screen and (max-device-width: $notepad) and (max-aspect-ratio: 1.4/1){
+    @media screen and (max-device-width: $notepad) and (max-aspect-ratio: 1.4/1) {
       width: 20%;
     }
 
-    @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1){
+    @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1) {
       width: 24%;
     }
 
@@ -71,11 +69,11 @@
     @include standartBlock($justify: flex-start);
     width: 16%;
 
-    @media screen and (max-device-width: $notepad) and (max-aspect-ratio: 1.4/1){
+    @media screen and (max-device-width: $notepad) and (max-aspect-ratio: 1.4/1) {
       width: 20%;
     }
 
-    @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1){
+    @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1) {
       width: 24%;
     }
 
@@ -87,9 +85,5 @@
         margin-bottom: 6%;
       }
     }
-
-
   }
-
-
 }

@@ -1,7 +1,7 @@
-@use "../styles" as *;
+@use "../../styles" as *;
 
 .score {
-  @include standartBlock($direction: row, $width:35%, $justify: flex-start);
+  @include standartBlock($direction: row, $width: 35%, $justify: flex-start);
   //gap: 2em;
 
   @media screen and (max-device-width: $tablet) and (max-aspect-ratio: 1.4/1) {

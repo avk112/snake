@@ -1,4 +1,4 @@
-@use "../styles" as *;
+@use "../../styles" as *;
 
 .speed {
   @include standartBlock($direction: row, $width: auto);
@@ -13,10 +13,8 @@
   }
 
   @media screen and (max-device-width: $tablet) and (max-aspect-ratio: 1.4/1) {
-  flex-direction: column;
-}
-
-
+    flex-direction: column;
+  }
 
   &__title {
     font-size: 1.3em;
