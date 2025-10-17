@@ -6,3 +6,4 @@ SASS/SCSS is used for styles.
 React Redux/Toolkit is used for state management.
 Custom useTimer hook is used.
 Rendering optimization is present as well.
+Visit at https://avk112.github.io/snake
