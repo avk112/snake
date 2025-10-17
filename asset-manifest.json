@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/snake/static/css/main.ba7a970c.css",
+    "main.css": "/snake/static/css/main.85595a56.css",
     "main.js": "/snake/static/js/main.51053687.js",
     "static/media/valley.jpg": "/snake/static/media/valley.bf974bbd7b7d7fac7c1d.jpg",
     "index.html": "/snake/index.html",
-    "main.ba7a970c.css.map": "/snake/static/css/main.ba7a970c.css.map",
+    "main.85595a56.css.map": "/snake/static/css/main.85595a56.css.map",
     "main.51053687.js.map": "/snake/static/js/main.51053687.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba7a970c.css",
+    "static/css/main.85595a56.css",
     "static/js/main.51053687.js"
   ]
 }
