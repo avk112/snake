@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/snake/static/css/main.054b0444.css",
-    "main.js": "/snake/static/js/main.2e243469.js",
+    "main.css": "/snake/static/css/main.ba7a970c.css",
+    "main.js": "/snake/static/js/main.51053687.js",
     "static/media/valley.jpg": "/snake/static/media/valley.bf974bbd7b7d7fac7c1d.jpg",
     "index.html": "/snake/index.html",
-    "main.054b0444.css.map": "/snake/static/css/main.054b0444.css.map",
-    "main.2e243469.js.map": "/snake/static/js/main.2e243469.js.map"
+    "main.ba7a970c.css.map": "/snake/static/css/main.ba7a970c.css.map",
+    "main.51053687.js.map": "/snake/static/js/main.51053687.js.map"
   },
   "entrypoints": [
-    "static/css/main.054b0444.css",
-    "static/js/main.2e243469.js"
+    "static/css/main.ba7a970c.css",
+    "static/js/main.51053687.js"
   ]
 }
