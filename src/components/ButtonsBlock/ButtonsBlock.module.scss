@@ -15,9 +15,10 @@
 
   button {
     margin: 0;
+    overflow: hidden;
 
     img {
-      width: 100%;
+      width: 20px;
       object-fit: cover;
     }
   }
@@ -55,7 +56,7 @@
     }
 
     @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1) {
-      width: 24%;
+      width: 40%;
     }
 
     button {
@@ -74,7 +75,7 @@
     }
 
     @media screen and (max-device-width: $mobile) and (max-aspect-ratio: 1.4/1) {
-      width: 24%;
+      width: 40%;
     }
 
     button {
